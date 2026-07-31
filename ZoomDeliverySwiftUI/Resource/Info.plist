@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>whatsapp</string>
+		<string>https</string>
+	</array>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>New Kansas Thin.otf</string>
+		<string>New Kansas SemiBold.otf</string>
+		<string>New Kansas Regular.otf</string>
+		<string>New Kansas Medium.otf</string>
+		<string>New Kansas Light.otf</string>
+		<string>New Kansas Heavy.otf</string>
+		<string>New Kansas Bold.otf</string>
+		<string>New Kansas Bold Italic.otf</string>
+		<string>New Kansas Black.otf</string>
+		<string>New Kansas Black Italic.otf</string>
+		<string>Trade Gothic LT Condensed No. 18.ttf</string>
+		<string>Trade Gothic LT Condensed No. 18 Oblique.ttf</string>
+		<string>Trade Gothic LT Bold Condensed No. 20.ttf</string>
+		<string>Trade Gothic LT Bold Condensed No. 20 Oblique.ttf</string>
+		<string>SF-Pro-Text-Bold.otf</string>
+		<string>SF-Pro-Text-Light.otf</string>
+		<string>SF-Pro-Text-Medium.otf</string>
+		<string>SF-Pro-Text-Regular.otf</string>
+		<string>SF-Pro-Text-Semibold.otf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+	</array>
+	<key>UIFileSharingEnabled</key>
+	<true/>
+</dict>
+</plist>

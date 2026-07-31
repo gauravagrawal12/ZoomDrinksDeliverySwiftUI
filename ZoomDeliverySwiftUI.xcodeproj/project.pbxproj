@@ -6,6 +6,18 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3D547F283001256700A52842 /* CountryPicker in Frameworks */ = {isa = PBXBuildFile; productRef = 3D547F273001256700A52842 /* CountryPicker */; };
+		3D547F2A3001256E00A52842 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 3D547F293001256E00A52842 /* SDWebImageSwiftUI */; };
+		3D8AF6793008A5460021F55F /* GoogleMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 3D8AF6783008A5460021F55F /* GoogleMaps */; };
+		3D8AF67B3008A54C0021F55F /* GooglePlaces in Frameworks */ = {isa = PBXBuildFile; productRef = 3D8AF67A3008A54C0021F55F /* GooglePlaces */; };
+		3D91DB5330065BA60001058D /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3D91DB5230065BA60001058D /* IQKeyboardManagerSwift */; };
+		3D91E41930067D7F0001058D /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 3D91E41830067D7F0001058D /* Alamofire */; };
+		3D91E433300768910001058D /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 3D91E432300768910001058D /* FirebaseCore */; };
+		3D91E4353007689C0001058D /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 3D91E4343007689C0001058D /* FirebaseMessaging */; };
+		3D91E437300768BA0001058D /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 3D91E436300768BA0001058D /* FirebaseCrashlytics */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		3D547EBB30011EB600A52842 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -29,9 +41,22 @@
 		3D547EC430011EB600A52842 /* ZoomDeliverySwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZoomDeliverySwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3D547ED830011F6800A52842 /* Exceptions for "ZoomDeliverySwiftUI" folder in "ZoomDeliverySwiftUI" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Resource/Info.plist,
+			);
+			target = 3D547EAC30011EB500A52842 /* ZoomDeliverySwiftUI */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		3D547EAF30011EB500A52842 /* ZoomDeliverySwiftUI */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3D547ED830011F6800A52842 /* Exceptions for "ZoomDeliverySwiftUI" folder in "ZoomDeliverySwiftUI" target */,
+			);
 			path = ZoomDeliverySwiftUI;
 			sourceTree = "<group>";
 		};
@@ -52,6 +77,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D8AF6793008A5460021F55F /* GoogleMaps in Frameworks */,
+				3D91E4353007689C0001058D /* FirebaseMessaging in Frameworks */,
+				3D547F2A3001256E00A52842 /* SDWebImageSwiftUI in Frameworks */,
+				3D8AF67B3008A54C0021F55F /* GooglePlaces in Frameworks */,
+				3D91E433300768910001058D /* FirebaseCore in Frameworks */,
+				3D91E437300768BA0001058D /* FirebaseCrashlytics in Frameworks */,
+				3D91E41930067D7F0001058D /* Alamofire in Frameworks */,
+				3D547F283001256700A52842 /* CountryPicker in Frameworks */,
+				3D91DB5330065BA60001058D /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +112,7 @@
 				3D547EAF30011EB500A52842 /* ZoomDeliverySwiftUI */,
 				3D547EBD30011EB600A52842 /* ZoomDeliverySwiftUITests */,
 				3D547EC730011EB600A52842 /* ZoomDeliverySwiftUIUITests */,
+				3D547F263001256700A52842 /* Frameworks */,
 				3D547EAE30011EB500A52842 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +125,13 @@
 				3D547EC430011EB600A52842 /* ZoomDeliverySwiftUIUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		3D547F263001256700A52842 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +154,15 @@
 			);
 			name = ZoomDeliverySwiftUI;
 			packageProductDependencies = (
+				3D547F273001256700A52842 /* CountryPicker */,
+				3D547F293001256E00A52842 /* SDWebImageSwiftUI */,
+				3D91DB5230065BA60001058D /* IQKeyboardManagerSwift */,
+				3D91E41830067D7F0001058D /* Alamofire */,
+				3D91E432300768910001058D /* FirebaseCore */,
+				3D91E4343007689C0001058D /* FirebaseMessaging */,
+				3D91E436300768BA0001058D /* FirebaseCrashlytics */,
+				3D8AF6783008A5460021F55F /* GoogleMaps */,
+				3D8AF67A3008A54C0021F55F /* GooglePlaces */,
 			);
 			productName = ZoomDeliverySwiftUI;
 			productReference = 3D547EAD30011EB500A52842 /* ZoomDeliverySwiftUI.app */;
@@ -195,6 +246,15 @@
 			);
 			mainGroup = 3D547EA430011EB500A52842;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				3D547F143001241100A52842 /* XCRemoteSwiftPackageReference "CountryPicker" */,
+				3D547F153001243D00A52842 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				3D91DB5130065B990001058D /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				3D91E41730067D6C0001058D /* XCRemoteSwiftPackageReference "Alamofire" */,
+				3D91E42F3007651D0001058D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				3D8AF6763008A40A0021F55F /* XCRemoteSwiftPackageReference "ios-maps-sdk" */,
+				3D8AF6773008A4360021F55F /* XCRemoteSwiftPackageReference "ios-places-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 3D547EAE30011EB500A52842 /* Products */;
 			projectDirPath = "";
@@ -393,15 +453,30 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = ZoomDeliverySwiftUI/ZoomDeliverySwiftUI.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZoomDeliverySwiftUI/Resource/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Zoom Drinks";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Zoom wants to access your camera to update your profile";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Zoom wants to access your location to get your address for placing orders from the store";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Zoom wants to access your location to get your address for placing orders from the store";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Zoom wants to access your location to get your address for placing orders from the store";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Zoom wants to access your media library to update your profile picture";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -410,12 +485,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.octal.combinesetup.ZoomDeliverySwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -424,15 +503,30 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = ZoomDeliverySwiftUI/ZoomDeliverySwiftUI.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZoomDeliverySwiftUI/Resource/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Zoom Drinks";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Zoom wants to access your camera to update your profile";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Zoom wants to access your location to get your address for placing orders from the store";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Zoom wants to access your location to get your address for placing orders from the store";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Zoom wants to access your location to get your address for placing orders from the store";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Zoom wants to access your media library to update your profile picture";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -441,12 +535,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.octal.combinesetup.ZoomDeliverySwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -570,6 +668,113 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3D547F143001241100A52842 /* XCRemoteSwiftPackageReference "CountryPicker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mobven/CountryPicker.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.3;
+			};
+		};
+		3D547F153001243D00A52842 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.4;
+			};
+		};
+		3D8AF6763008A40A0021F55F /* XCRemoteSwiftPackageReference "ios-maps-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googlemaps/ios-maps-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.15.0;
+			};
+		};
+		3D8AF6773008A4360021F55F /* XCRemoteSwiftPackageReference "ios-places-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googlemaps/ios-places-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.15.0;
+			};
+		};
+		3D91DB5130065B990001058D /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.3;
+			};
+		};
+		3D91E41730067D6C0001058D /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.12.0;
+			};
+		};
+		3D91E42F3007651D0001058D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.16.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3D547F273001256700A52842 /* CountryPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D547F143001241100A52842 /* XCRemoteSwiftPackageReference "CountryPicker" */;
+			productName = CountryPicker;
+		};
+		3D547F293001256E00A52842 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D547F153001243D00A52842 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		3D8AF6783008A5460021F55F /* GoogleMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D8AF6763008A40A0021F55F /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMaps;
+		};
+		3D8AF67A3008A54C0021F55F /* GooglePlaces */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D8AF6773008A4360021F55F /* XCRemoteSwiftPackageReference "ios-places-sdk" */;
+			productName = GooglePlaces;
+		};
+		3D91DB5230065BA60001058D /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D91DB5130065B990001058D /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+		3D91E41830067D7F0001058D /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D91E41730067D6C0001058D /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		3D91E432300768910001058D /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D91E42F3007651D0001058D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		3D91E4343007689C0001058D /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D91E42F3007651D0001058D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		3D91E436300768BA0001058D /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D91E42F3007651D0001058D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3D547EA530011EB500A52842 /* Project object */;
 }
